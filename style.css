@@ -9,13 +9,20 @@
 
 .main_links_container{
 
+
+
+}
+
+body{
+
+    text-align: center;
+
 }
 
 
 .main_links{
 
-    height: 200px;
     text-align: center;
-
+    display: block;
 
 }
