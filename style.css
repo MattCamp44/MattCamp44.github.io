@@ -9,7 +9,7 @@
 
 .main_links_container{
 
-
+    align-content: center;
 
 }
 
@@ -17,7 +17,7 @@ body{
 
     text-align: center;
     font-family: 'Raleway', sans-serif;
-
+    align-content: center;
 
 }
 
