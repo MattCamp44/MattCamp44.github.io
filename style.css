@@ -1,6 +1,6 @@
 
 .Title{
-
+    padding: 2rem;
     text-align: center;
     font-family: 'Raleway', sans-serif;
 
@@ -27,7 +27,7 @@ body{
     text-align: center;
     display: block;
     font-family: 'Raleway', sans-serif;
-    font-size: large;
+    font-size:x-large;
     padding: 1rem;
 
 
