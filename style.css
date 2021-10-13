@@ -24,6 +24,9 @@ body{
 
 .main_links{
 
+
+    margin: 1rem;
+
     text-align: center;
     display: block;
     font-family: 'Raleway', sans-serif;
