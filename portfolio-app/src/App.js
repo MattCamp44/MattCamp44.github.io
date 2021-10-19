@@ -64,7 +64,18 @@ var projectList = [
     "linkToSourceCode":"https://github.com/peppep97/wad-group06"
   }
 
+  ,
 
+  {
+
+    "name" : "Software fault injector",
+    "description": "A software fault injector written in C++",
+    "linkToSourceCode":"https://github.com/MattCamp44/C-C-fault-injector",
+    "keywords" : [ "C" , "C++"  ],
+
+
+
+  }
 
 ]
 
