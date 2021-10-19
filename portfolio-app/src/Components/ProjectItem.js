@@ -8,7 +8,7 @@ import LinkToGamePitchDocumentCompoment from './Modular/LinkToGamePitchDocumentC
 import LinkToPrototypeComponent from './Modular/LinkToPrototypeComponent'
 import LinkToDesignDocuments from './Modular/LinkToDesignDocuments'
 
-export default function ProjectItem({image, description , name, linkToGame, keywords, linkToSourceCode , linkToTeaserTrailer, linkToGamePitchDocumentCompoment, linkToPrototype, linkToDesignDocuments }) {
+export default function ProjectItem({image, description , name, linkToGame, keywords, linkToSourceCode , linkToTeaserTrailer, linkToGamePitchDocumentCompoment, linkToPrototype, linkToDesignDocuments, line2 }) {
 
     var localKeywordsString = keywords;
 
@@ -22,7 +22,7 @@ export default function ProjectItem({image, description , name, linkToGame, keyw
                     <Card.Title> <h1> {name} </h1> </Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">Keywords <br/> { localKeywordsString === undefined ? '' : (localKeywordsString + '').replaceAll(","," | ")}</Card.Subtitle>
                     <Card.Text className="CardText" >
-                    {description }
+                    <br/>{description } <br/> <br/> {line2}
                     
                     </Card.Text>
 

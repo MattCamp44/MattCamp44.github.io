@@ -28,7 +28,8 @@ var projectList = [
   {
 
     "name": "Duality",
-    "description": "Game I worked on during game design university course.",
+    "description": "Duality is a online multiplayer fps game prototype, where two player control the same character.",
+    "line2" : " Submission for \"Game Design\" university course.",
     "image": dualityLogo,
     //"image": dualityGameplay,
     "linkToGame": "https://ciaosonocampa.itch.io/duality",
@@ -44,7 +45,8 @@ var projectList = [
   {
     "image": SpiritedToStayImage,
     "name": "Spirited to stay",
-    "description": "Submission for Nordic Game Jam." + "\n" +  "Theme: Pending",
+    "description": "Submission for Nordic Game Jam.",
+    "line2" :  "Jam Theme: Pending",
     "keywords" : [ "C#" , "Unity" , "Game" ],
     "linkToGame" : "https://clawmaster.itch.io/hangout-2-pending",
 
@@ -55,7 +57,8 @@ var projectList = [
   {
 
     "name": "Figaro",
-    "description": "Game I worked on during Human computer interaction university course",
+    "description": "Figaro ia a web application hi-fi prototype that help singers practising at home",
+    "line2": "Submission for \"Human computer Interaction\" university course",
     "image": figaroLogo,
     "keywords" : [ "React" , "Human Computer Interaction", "Front End" ],
     "linkToPrototype" : "https://figaro-app.herokuapp.com/exercises",
@@ -63,16 +66,7 @@ var projectList = [
     "linkToDesignDocuments" : "https://github.com/MattCamp44/figaro-design-process"
   },
 
-  {
-
-    "name": "Car Pooling Android Application",
-    "description": "Android application developed during \"Mobile applications development\" university course",
-    "image": CarPoolingLogo,
-    "keywords" : [ "Kotlin" , "Android" , "Mobile", "Firebase" ],
-    "linkToSourceCode":"https://github.com/peppep97/wad-group06"
-  }
-
-  ,
+ 
 
   {
 
@@ -84,6 +78,19 @@ var projectList = [
 
 
   }
+
+  ,
+
+  {
+
+    "name": "Car Pooling Android Application",
+    "description": "Android application developed during \"Mobile applications development\" university course",
+    "image": CarPoolingLogo,
+    "keywords" : [ "Kotlin" , "Android" , "Mobile", "Firebase" ],
+    "linkToSourceCode":"https://github.com/peppep97/wad-group06"
+  }
+
+  ,
 
 ]
 
