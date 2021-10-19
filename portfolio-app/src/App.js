@@ -1,4 +1,7 @@
 import './App.css';
+
+import React, { useState, useEffect } from 'react';
+
 import ProjectItem from './Components/ProjectItem';
 import ProjectList from './Components/ProjectList';
 
@@ -7,7 +10,11 @@ import dualityGameplay from './Images/DualityGameplay.gif'
 import figaroLogo from './Images/FigaroLogo.png'
 import CarPoolingLogo from './Images/Car_pooling.png'
 import SpiritedToStayImage from './Images/SpiritedToStay.png'
+import CheckboxGroupFilterComponent from './Components/CheckboxGroupFilterComponent';
 // 
+
+
+
 
 
 var projectList = [
@@ -28,7 +35,7 @@ var projectList = [
     "linkToSourceCode": "https://github.com/Fede996/Duality" ,
     "linkToTeaserTrailer": "https://www.youtube.com/watch?v=xMN1NHNClaM",
     "linkToGamePitchDocumentCompoment": "https://github.com/MattCamp44/GamePitchDocumentDuality/blob/main/Game%20pitch%20document.pdf",
-    "keywords" : [ "C#" , "Unity" , "GameDev" ]
+    "keywords" : [ "C#" , "Unity" , "Game" ]
 
   }
 
@@ -38,7 +45,7 @@ var projectList = [
     "image": SpiritedToStayImage,
     "name": "Spirited to stay",
     "description": "Submission for Nordic Game Jam." + "\n" +  "Theme: Pending",
-    "keywords" : [ "C#" , "Unity" , "GameDev" ],
+    "keywords" : [ "C#" , "Unity" , "Game" ],
     "linkToGame" : "https://clawmaster.itch.io/hangout-2-pending",
 
   }
@@ -52,7 +59,8 @@ var projectList = [
     "image": figaroLogo,
     "keywords" : [ "React" , "Human Computer Interaction", "Front End" ],
     "linkToPrototype" : "https://figaro-app.herokuapp.com/exercises",
-    "linkToSourceCode" : "https://github.com/MattCamp44/figaro-application"
+    "linkToSourceCode" : "https://github.com/MattCamp44/figaro-application",
+    "linkToDesignDocuments" : "https://github.com/MattCamp44/figaro-design-process"
   },
 
   {
@@ -79,14 +87,48 @@ var projectList = [
 
 ]
 
+var distinctKeywords = [];
+
+projectList.forEach(
+
+  element => {
+
+    distinctKeywords = distinctKeywords.concat( element.keywords );
+
+
+  }
+
+)
+
+distinctKeywords = distinctKeywords.filter(
+
+  (value, index, self) => self.indexOf(value) === index
+
+)
+
+
 
 function App() {
+
+
+  const [selectedKeywords, setselectedKeywords] = useState([]);
+
+
+  useEffect(() => {
+    
+    return () => {
+    }
+  }, [selectedKeywords])
+
+
   return (
     <div className="App">
       
       <h1 className="Title" > Matteo's portfolio </h1>
 
-      <ProjectList projectList={projectList} />
+      {/* <CheckboxGroupFilterComponent distinctKeywords={distinctKeywords} selectedKeywords={selectedKeywords} setselectedKeywords={setselectedKeywords} /> */}
+
+      <ProjectList projectList={projectList} selectedKeywords={selectedKeywords} />
 
     </div>
   );

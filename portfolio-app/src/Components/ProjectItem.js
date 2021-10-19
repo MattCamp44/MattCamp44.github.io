@@ -6,8 +6,9 @@ import LinkToSourceCodeButtonComponent from './Modular/LinkToSourceCodeButtonCom
 import LinkToTeaserTrailerComponent from './Modular/LinkToTeaserTrailerComponent'
 import LinkToGamePitchDocumentCompoment from './Modular/LinkToGamePitchDocumentCompoment'
 import LinkToPrototypeComponent from './Modular/LinkToPrototypeComponent'
+import LinkToDesignDocuments from './Modular/LinkToDesignDocuments'
 
-export default function ProjectItem({image, description , name, linkToGame, keywords, linkToSourceCode , linkToTeaserTrailer, linkToGamePitchDocumentCompoment, linkToPrototype }) {
+export default function ProjectItem({image, description , name, linkToGame, keywords, linkToSourceCode , linkToTeaserTrailer, linkToGamePitchDocumentCompoment, linkToPrototype, linkToDesignDocuments }) {
 
     var localKeywordsString = keywords;
 
@@ -32,7 +33,7 @@ export default function ProjectItem({image, description , name, linkToGame, keyw
                     <LinkToSourceCodeButtonComponent linkToSourceCode={linkToSourceCode}/>
                     <LinkToTeaserTrailerComponent linkToTeaserTrailer={linkToTeaserTrailer} />
                     <LinkToGamePitchDocumentCompoment linkToGamePitchDocumentCompoment={linkToGamePitchDocumentCompoment} />
-                    
+                    <LinkToDesignDocuments linkToDesignDocuments={linkToDesignDocuments}/>
                     </div>
                 
                 </Card.Body>

@@ -75,6 +75,16 @@
   100% {opacity: 1;}
 }
 
+
+.CheckBoxList{
+
+
+  display: inline-grid ;
+
+
+
+}
+
 .Projectcard{
 
   margin-left: 1rem;
