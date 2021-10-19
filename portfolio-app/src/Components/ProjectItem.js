@@ -1,8 +1,10 @@
+import Button from 'react-bootstrap/Button'
 import React from 'react'
 import Card from 'react-bootstrap/Card'
+import LinkToGameButtonComponent from './Modular/linkToGameButtonComponent'
 
 
-export default function ProjectItem({image, description , name }) {
+export default function ProjectItem({image, description , name, linkToGame }) {
     return (
         
        
@@ -11,10 +13,13 @@ export default function ProjectItem({image, description , name }) {
                 <Card.Body>
                     <Card.Title> <h1> {name} </h1> </Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">Gamedev - Online </Card.Subtitle>
-                    <Card.Text>
-                    {description}
+                    <Card.Text className="CardText" >
+                    {description }
+                    
                     </Card.Text>
-                
+
+                    <LinkToGameButtonComponent linkToGame={linkToGame} />
+
                 </Card.Body>
             </Card>
 
