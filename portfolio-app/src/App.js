@@ -2,6 +2,7 @@ import './App.css';
 
 import React, { useState, useEffect } from 'react';
 
+
 import ProjectItem from './Components/ProjectItem';
 import ProjectList from './Components/ProjectList';
 
@@ -11,6 +12,7 @@ import figaroLogo from './Images/FigaroLogo.png'
 import CarPoolingLogo from './Images/Car_pooling.png'
 import SpiritedToStayImage from './Images/SpiritedToStay.png'
 import CheckboxGroupFilterComponent from './Components/CheckboxGroupFilterComponent';
+import LowerVolumeModal from './Components/LowerVolumeModal';
 // 
 
 
@@ -154,6 +156,8 @@ function App() {
       {/* <CheckboxGroupFilterComponent distinctKeywords={distinctKeywords} selectedKeywords={selectedKeywords} setselectedKeywords={setselectedKeywords} /> */}
 
       <ProjectList projectList={projectList} selectedKeywords={selectedKeywords} />
+
+      
 
     </div>
   );
