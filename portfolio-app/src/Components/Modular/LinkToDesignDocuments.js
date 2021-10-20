@@ -6,7 +6,7 @@ export default function LinkToDesignDocuments({linkToDesignDocuments}) {
     
     else return (
         <div className="CardButton">
-        <a href={linkToDesignDocuments} target="_blank" >Design Documents</a>
+        <a className="Link" href={linkToDesignDocuments} target="_blank" >Design Documents</a>
         </div>
 
 

@@ -61,7 +61,7 @@ var projectList = [
     "line2": "Submission for \"Human computer Interaction\" university course",
     "image": figaroLogo,
     "keywords" : [ "React" , "Human Computer Interaction", "Front End" ],
-    "linkToPrototype" : "https://figaro-app.herokuapp.com/exercises",
+    "linkToPrototype" : "https://figaro-app.herokuapp.com/",
     "linkToSourceCode" : "https://github.com/MattCamp44/figaro-application",
     "linkToDesignDocuments" : "https://github.com/MattCamp44/figaro-design-process"
   },
@@ -91,6 +91,27 @@ var projectList = [
   }
 
   ,
+
+  {
+
+    "name": "Wallet service REST API",
+    "description": "A REST API developed with SpringBoot",
+    "line2": "Submission for \"Web applications 2\" university course",
+    "keywords" : [ "Kotlin" , "Spring Boot" , "Back End" ],
+    "linkToSourceCode" : "https://github.com/mosTavassoli/WA2-Group12"
+
+  }
+
+  ,
+
+  {
+
+    "name" : ""
+
+
+
+  }
+
 
 ]
 
@@ -132,7 +153,10 @@ function App() {
     <div className="App">
       
       <h1 className="Title" > Matteo's portfolio </h1>
-
+      <p>mcampanini44@gmail.com</p>
+      <a className="Link" href={"https://github.com/MattCamp44"} target="_blank" >GitHub Profile</a> <br/> <br/>
+      <a className="Link" href={"https://ciaosonocampa.itch.io/"} target="_blank" >Itch.io profile</a> <br/> <br/>
+      <a className="Link" href={"https://www.linkedin.com/in/matteo-campanini-5ab05b177/"} target="_blank" >Linkedin</a>
       {/* <CheckboxGroupFilterComponent distinctKeywords={distinctKeywords} selectedKeywords={selectedKeywords} setselectedKeywords={setselectedKeywords} /> */}
 
       <ProjectList projectList={projectList} selectedKeywords={selectedKeywords} />

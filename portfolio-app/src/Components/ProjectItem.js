@@ -7,6 +7,7 @@ import LinkToTeaserTrailerComponent from './Modular/LinkToTeaserTrailerComponent
 import LinkToGamePitchDocumentCompoment from './Modular/LinkToGamePitchDocumentCompoment'
 import LinkToPrototypeComponent from './Modular/LinkToPrototypeComponent'
 import LinkToDesignDocuments from './Modular/LinkToDesignDocuments'
+import Badge from 'react-bootstrap/Badge'
 
 export default function ProjectItem({image, description , name, linkToGame, keywords, linkToSourceCode , linkToTeaserTrailer, linkToGamePitchDocumentCompoment, linkToPrototype, linkToDesignDocuments, line2 }) {
 
@@ -20,7 +21,11 @@ export default function ProjectItem({image, description , name, linkToGame, keyw
                 <Card.Img className="CardImage" variant="top" src={image} />
                 <Card.Body>
                     <Card.Title> <h1> {name} </h1> </Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Keywords <br/> { localKeywordsString === undefined ? '' : (localKeywordsString + '').replaceAll(","," | ")}</Card.Subtitle>
+                    {/* <Card.Subtitle className="mb-2 text-muted">Keywords <br/> <br/> { localKeywordsString===undefined ? '' : localKeywordsString.map(
+
+                        element => { return (<Badge className="badge" >{element}{' '}</Badge>) }
+
+                    ) }</Card.Subtitle> */}
                     <Card.Text className="CardText" >
                     <br/>{description } <br/> <br/> {line2}
                     

@@ -6,7 +6,7 @@ export default function LinkToSourceCodeButtonComponent({linkToSourceCode}) {
     
     else return (
         <div className="CardButton">
-        <a href={linkToSourceCode} target="_blank" >Source Code</a>
+        <a className="Link" href={linkToSourceCode} target="_blank" >Source Code</a>
         </div>
 
 

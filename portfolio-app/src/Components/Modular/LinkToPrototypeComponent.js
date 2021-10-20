@@ -7,7 +7,7 @@ export default function LinkToPrototypeComponent({linkToPrototype}) {
 
 else return (
     <div className="CardButton">
-    <a href={linkToPrototype} target="_blank" >Go to application</a>
+    <a className="Link" href={linkToPrototype} target="_blank" >Go to application</a>
     </div>
 
 

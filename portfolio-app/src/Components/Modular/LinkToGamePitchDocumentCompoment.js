@@ -6,7 +6,7 @@ export default function LinkToGamePitchDocumentCompoment({linkToGamePitchDocumen
     
     else return (
         <div className="CardButton">
-        <a href={linkToGamePitchDocumentCompoment} target="_blank" >Game Pitch Document</a>
+        <a className="Link" href={linkToGamePitchDocumentCompoment} target="_blank" >Game Pitch Document</a>
         </div>
 
 

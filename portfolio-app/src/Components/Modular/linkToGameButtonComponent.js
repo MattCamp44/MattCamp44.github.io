@@ -10,7 +10,7 @@ export default function LinkToGameButtonComponent({linkToGame}) {
     
     else return (
         <div className="CardButton">
-        <a href={linkToGame} target="_blank" >Download page</a>
+        <a className="Link" href={linkToGame} target="_blank" >Download page</a>
         </div>
 
 

@@ -7,7 +7,7 @@ export default function LinkToTeaserTrailerComponent({linkToTeaserTrailer}) {
     
     else return (
         <div className="CardButton">
-        <a href={linkToTeaserTrailer} target="_blank" >Teaser Trailer</a>
+        <a className="Link" href={linkToTeaserTrailer} target="_blank" >Teaser Trailer</a>
         </div>
 
 
