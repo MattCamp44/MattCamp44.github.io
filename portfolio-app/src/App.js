@@ -28,8 +28,8 @@ var projectList = [
   {
 
     "name": "Duality",
-    "description": "Duality is a online multiplayer fps game prototype, where two player control the same character.",
-    "line2" : " Submission for \"Game Design\" university course.",
+    "description": "Duality is a online multiplayer fps game, where two player control the same character",
+    "line2" : "Submission for \"Game Design\" university course",
     "image": dualityLogo,
     //"image": dualityGameplay,
     "linkToGame": "https://ciaosonocampa.itch.io/duality",
@@ -45,7 +45,7 @@ var projectList = [
   {
     "image": SpiritedToStayImage,
     "name": "Spirited to stay",
-    "description": "Submission for Nordic Game Jam.",
+    "description": "Submission for Nordic Game Jam",
     "line2" :  "Jam Theme: Pending",
     "keywords" : [ "C#" , "Unity" , "Game" ],
     "linkToGame" : "https://clawmaster.itch.io/hangout-2-pending",
@@ -57,7 +57,7 @@ var projectList = [
   {
 
     "name": "Figaro",
-    "description": "Figaro ia a web application hi-fi prototype that help singers practising at home",
+    "description": "Figaro is a web application that helps singers practising at home",
     "line2": "Submission for \"Human computer Interaction\" university course",
     "image": figaroLogo,
     "keywords" : [ "React" , "Human Computer Interaction", "Front End" ],
@@ -71,6 +71,7 @@ var projectList = [
   {
 
     "name" : "Software fault injector",
+    "line2": "Submission for \"System and Device Programming\" university course",
     "description": "A software fault injector written in C++",
     "linkToSourceCode":"https://github.com/MattCamp44/C-C-fault-injector",
     "keywords" : [ "C" , "C++"  ],
@@ -84,7 +85,8 @@ var projectList = [
   {
 
     "name": "Car Pooling Android Application",
-    "description": "Android application developed during \"Mobile applications development\" university course",
+    "description": "A car pooling android application",
+    "line2": "Submission for \"Mobile Apllications Development\" university course",
     "image": CarPoolingLogo,
     "keywords" : [ "Kotlin" , "Android" , "Mobile", "Firebase" ],
     "linkToSourceCode":"https://github.com/peppep97/wad-group06"
@@ -102,15 +104,7 @@ var projectList = [
 
   }
 
-  ,
-
-  {
-
-    "name" : ""
-
-
-
-  }
+  
 
 
 ]
@@ -152,8 +146,8 @@ function App() {
   return (
     <div className="App">
       
-      <h1 className="Title" > Matteo's portfolio </h1>
-      <p>mcampanini44@gmail.com</p>
+      <h1 className="Title" > Matteo Campanini - Software Developer </h1>
+      <a className="Link" href={"mailto:mcampanini44@gmail.com"}>mcampanini44@gmail.com</a> <br/> <br/>
       <a className="Link" href={"https://github.com/MattCamp44"} target="_blank" >GitHub Profile</a> <br/> <br/>
       <a className="Link" href={"https://ciaosonocampa.itch.io/"} target="_blank" >Itch.io profile</a> <br/> <br/>
       <a className="Link" href={"https://www.linkedin.com/in/matteo-campanini-5ab05b177/"} target="_blank" >Linkedin</a>

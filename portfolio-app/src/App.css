@@ -1,11 +1,12 @@
 :root{
 
-  --primary: #f1faee ;
-  --border: #a8dadc;
-  --text: #1d3557;
+  --primary: #2b2d42 ;
+  --border: #8d99ae;
+  --text: #8d99ae;
   --font: 'Lato' ;
   --badge-color: #A8DADC ;
-  --link: #1d3557;
+  --link: #edf2f4;
+  --cardTitleColor: #edf2f4 ;
 }
 
 
@@ -27,17 +28,15 @@
 
 }
 
-.badge{
+.CardTitle{
 
-  background-color: var(--badge-color);
-  width: 3rem;
-
-  
-
-  margin-right: 1rem;
+  color: var(--cardTitleColor);
 
 
 }
+
+
+
 
 
 .Link{
@@ -76,6 +75,7 @@
   margin-left: auto;
   margin-right: auto;
 
+  color: var(--cardTitleColor);
  
 
 }
