@@ -30,7 +30,7 @@ var projectList = [
   {
 
     "name": "Duality",
-    "description": "Duality is a online multiplayer fps game, where two player control the same character",
+    "description": "Duality is an online multiplayer fps game, where two players control the same character",
     "line2" : "Submission for \"Game Design\" university course",
     "image": dualityLogo,
     //"image": dualityGameplay,
@@ -86,9 +86,9 @@ var projectList = [
 
   {
 
-    "name": "Car Pooling Android Application",
-    "description": "A car pooling android application",
-    "line2": "Submission for \"Mobile Apllications Development\" university course",
+    "name": "Carpooling  Android Application",
+    "description": "A Carpooling android application",
+    "line2": "Submission for \"Mobile Applications Development\" university course",
     "image": CarPoolingLogo,
     "keywords" : [ "Kotlin" , "Android" , "Mobile", "Firebase" ],
     "linkToSourceCode":"https://github.com/peppep97/wad-group06"
