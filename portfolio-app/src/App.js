@@ -13,6 +13,7 @@ import CarPoolingLogo from './Images/Car_pooling.png'
 import SpiritedToStayImage from './Images/SpiritedToStay.png'
 import CheckboxGroupFilterComponent from './Components/CheckboxGroupFilterComponent';
 import LowerVolumeModal from './Components/LowerVolumeModal';
+import profilePic from './Images/linkedinphoto.jpg'
 // 
 
 
@@ -22,6 +23,7 @@ import LowerVolumeModal from './Components/LowerVolumeModal';
 var projectList = [
 
   // {
+  //   "image": profilePic,
   //   "name": "Hi!",
   // }
 
