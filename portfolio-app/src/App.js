@@ -57,7 +57,14 @@ var projectList = [
   }
 
   ,
+  {
 
+    "name": "Game programming projects",
+    "description": "A collection of small personal projects realted to game programming and design",
+    "line2" :  "",
+    "linkToProject" : { "linkToProject": "https://github.com/MattCamp44/GameAIByExample", "linkText":"Game AI" }
+
+  },
   {
 
     "name": "Figaro",

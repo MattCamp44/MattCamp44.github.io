@@ -8,8 +8,9 @@ import LinkToGamePitchDocumentCompoment from './Modular/LinkToGamePitchDocumentC
 import LinkToPrototypeComponent from './Modular/LinkToPrototypeComponent'
 import LinkToDesignDocuments from './Modular/LinkToDesignDocuments'
 import Badge from 'react-bootstrap/Badge'
+import LinkToProject from './Modular/LinkToProject'
 
-export default function ProjectItem({image, description , name, linkToGame, keywords, linkToSourceCode , linkToTeaserTrailer, linkToGamePitchDocumentCompoment, linkToPrototype, linkToDesignDocuments, line2 }) {
+export default function ProjectItem({image, description , name, linkToGame, keywords, linkToSourceCode , linkToTeaserTrailer, linkToGamePitchDocumentCompoment, linkToPrototype, linkToDesignDocuments, line2, linkToProject }) {
 
     var localKeywordsString = keywords;
 
@@ -39,6 +40,7 @@ export default function ProjectItem({image, description , name, linkToGame, keyw
                     <LinkToTeaserTrailerComponent linkToTeaserTrailer={linkToTeaserTrailer} />
                     <LinkToGamePitchDocumentCompoment linkToGamePitchDocumentCompoment={linkToGamePitchDocumentCompoment} />
                     <LinkToDesignDocuments linkToDesignDocuments={linkToDesignDocuments}/>
+                    <LinkToProject linkToProject={linkToProject} />
                     </div>
                 
                 </Card.Body>
