@@ -59,10 +59,10 @@ var projectList = [
   ,
   {
 
-    "name": "Game programming projects",
-    "description": "A collection of small personal projects realted to game programming and design",
+    "name": "Game AI by example",
+    "description": "A collection of small personal projects, based on the book \"Game AI by example\" by Mat Buckland.",
     "line2" :  "",
-    "linkToProject" : { "linkToProject": "https://github.com/MattCamp44/GameAIByExample", "linkText":"Game AI" }
+    "linkToProject" : { "linkToProject": "https://github.com/MattCamp44/GameAIByExample_Exercise1", "linkText":"State-driven agent design" }
 
   },
   {
